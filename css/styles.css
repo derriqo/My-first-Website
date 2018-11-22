@@ -1,6 +1,10 @@
+body {
+  background: brown;
+}
 h1 {
   color: blue;
   text-align: center;
+  font-weight: bolder;
 }
 h2 {
   color: green;
@@ -9,6 +13,24 @@ h2 {
 }
 p  {
   font-family: sans-serif;
+  margin-left: auto;
+  font-size: 14;
 }
-ul {line-height: 40px;
+ul {
+  line-height: 20px;
+  font-style: italic;
+  font-family: fantasy;
+
+}
+ol {font-style: normal;
+  font-family: sans-serif;
+}
+img { width: auto;
+
+}
+strong  {
+  font-style: italic;
+}
+em  {
+  font-weight: bold;
 }
